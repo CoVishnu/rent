@@ -23,7 +23,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     }
 .styled-table thead tr {
-    background-color: #009879;
+    background-color: var(--primary);
     color:#ffffff;
     text-align: left;
 }
@@ -38,7 +38,7 @@
     background-color: #f3f3f3;
 }
 .styled-table tbody tr:last-of-type{
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid var(--primary);
 }
 .btn {
 border: none;
@@ -64,5 +64,6 @@ color: black;
 }
 .btn-contact {
 background-color: #e82764;
-margin-bottom: 10px;
+margin-bottom: 20px;
+margin-top: -2px;
 }

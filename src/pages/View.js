@@ -16,7 +16,7 @@ const View = () => {
         <div style={{ marginTop: "150px" }}>
             <div className="card">
                 <div className="card-header">
-                    <p>User Contact Detail</p>
+                    <p>Room Detail</p>
                 </div>
                 <div className="container">
                     <strong>ID: </strong>
